@@ -1,0 +1,819 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, Open Sans, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.faq {
+  padding: 40px 100px 100px 100px;
+  background: linear-gradient(
+    169deg,
+    rgba(129, 80, 246, 1) 0%,
+    rgba(227, 160, 241, 0.7637429971988796) 100%
+  );
+}
+.faq h1 {
+  color: rgba(50, 115, 201, 1);
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.faq div {
+  padding: 0 20px;
+}
+.faq .question {
+  color: #fff;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 650;
+  margin-bottom: 8px;
+}
+.faq .answer {
+  color: #000;
+  font-size: 14px;
+}
+.faq p {
+  padding-top: 40px;
+  margin-bottom: 0;
+  font-size: 20px;
+  color: white;
+}
+@media (max-width: 800px) {
+  .faq {
+    padding: 30px 5%;
+  }
+  .faq p {
+    font-size: 10px;
+    text-align: justify;
+  }
+  .faq div {
+    padding: 0;
+  }
+  .faq h1 {
+    font-size: 20px;
+  }
+}
+.roiHeader {
+  color: #fff;
+  margin-bottom: 40px;
+  padding: 0 5%;
+}
+.roiHeader img {
+  width: 150px;
+  float: left;
+}
+.roiHeader p {
+  display: inline-block;
+  margin: 0 15px;
+  text-align: right;
+}
+.flag img {
+  width: 25px;
+  margin: 0;
+  float: none;
+}
+@media (max-width: 800px) {
+  .roiHeader {
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 0 2%;
+  }
+  .roiHeader img {
+    width: 120px;
+    float: left;
+    margin-top: -5px;
+  }
+  .roiHeader p {
+    display: inline-block;
+    margin: 0 15px;
+    text-align: right;
+    font-size: 12px;
+  }
+  .flag img {
+    width: 25px;
+    margin: 0;
+    float: none;
+  }
+}
+.Countdown {
+  margin: 10px auto;
+}
+.Countdown-col {
+  display: inline-block;
+}
+.Countdown-col-element {
+  display: inline-block;
+  margin: 0 3px;
+  display: flex;
+  flex-direction: column;
+}
+.Countdown-col-element strong {
+  text-align: center;
+  font-size: 35px;
+  color: #6780f1;
+}
+.Countdown-col-element .countdownUnit {
+  font-size: 50px;
+  margin-top: -10px;
+  color: #fff;
+  text-align: center;
+}
+.Countdown-small {
+  margin: 0;
+}
+.Countdown-col-small {
+  display: inline-block;
+}
+.Countdown-col-element-small {
+  display: inline-block;
+  margin: 0 2px;
+  display: flex;
+  flex-direction: column;
+}
+.Countdown-col-element-small strong {
+  font-size: 16px;
+  color: grey;
+}
+.Countdown-col-2 {
+  display: inline-block;
+}
+.Countdown-col-element-2 {
+  display: inline-block;
+  margin: 0 5px;
+  display: flex;
+  flex-direction: column;
+}
+.Countdown-col-element-2 strong {
+  font-size: 40px;
+  color: #fff;
+}
+@media (max-width: 1024px) {
+  .Countdown-col-element strong {
+    font-size: 22px;
+  }
+}
+@media (max-width: 512px) {
+  .Countdown {
+    margin: 0;
+  }
+  .Countdown-col-element {
+    margin: 0 2px;
+    font-size: 15px;
+  }
+  .Countdown-col-element strong {
+    font-size: 20px;
+  }
+  .Countdown-col-element-small strong,
+  .Countdown-col-element .countdownUnit {
+    font-size: 12px;
+  }
+  .tiermanagement {
+    background-position: 100% !important;
+    background-size: contain !important;
+    margin-top: 0 !important;
+  }
+  .fixHeightDiv {
+    height: auto !important;
+  }
+}
+.roi {
+  color: #444;
+}
+.roiSection {
+  background: rgb(129, 80, 246);
+  background: linear-gradient(
+    169deg,
+    rgba(129, 80, 246, 1) 0%,
+    rgba(227, 160, 241, 0.7637429971988796) 100%
+  );
+  padding: 30px;
+}
+.tierSection {
+  background: white;
+  padding: 30px;
+}
+.roiBackground {
+  background: url(../images/Banner-3.png) no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  padding: 20px 50px 50px;
+}
+.linkSection {
+  margin-top: 30px;
+}
+.roiPromptSection {
+  padding: 5%;
+}
+.roiPromptSection h1 {
+  margin-bottom: 0;
+  font-weight: 900;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.81);
+}
+.roiPromptSection h2 {
+  margin-bottom: 0;
+  font-weight: 900;
+  font-size: 36px;
+  color: rgba(0, 0, 0, 0.81);
+}
+.roiPromptSection p {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.releaseCoundown {
+  font-size: 20px !important;
+  margin-bottom: 20px !important;
+  font-weight: 700 !important;
+}
+.referralInfo {
+  color: #959595 !important;
+  font-size: 14px !important;
+}
+.contractBalance {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.contractBalance p {
+  font-size: 22px;
+  font-weight: 700;
+  color: #444;
+  margin-bottom: 0;
+}
+.contractBalance span {
+  margin-left: 15px;
+}
+.contractBalanceNumber {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 0 !important;
+}
+.checkContract {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 650;
+  margin-top: 20px;
+  white-space: nowrap;
+}
+.checkContract a {
+  color: #fff;
+  border-radius: 8px;
+  padding: 15px 20px;
+}
+.tierDivision {
+  padding: 40px 0;
+  background: #fff;
+}
+.tierDivision h1 {
+  margin-bottom: 0;
+  font-weight: 900;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.81);
+}
+.referalstatus {
+  border: 1px solid rgba(50, 115, 201, 1);
+  /* padding: 20px; */
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 83%;
+  margin: 0 auto;
+  box-shadow: 10px 10px 5px 0px rgba(50, 115, 201, 0.75);
+}
+.tiermanagement {
+  background: url(../images/pyramidnew.png) no-repeat;
+  background-position: 50%;
+  background-size: contain;
+  margin-top: 20px;
+}
+.whitecard {
+  background: #fff;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 20px;
+}
+.dataSection {
+  padding: 40px 0;
+}
+.dataSection h1 {
+  font-weight: 700;
+  font-size: 48px;
+  display: block;
+  color: #555186;
+  margin: 0;
+}
+.dataSection p {
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #8a87b6;
+}
+.tronscanButton {
+  margin-left: 5%;
+}
+.fixHeightDiv {
+  height: 140px;
+}
+.refRewards {
+  font-size: 18px;
+  font-weight: 600;
+}
+.compoundCalc {
+  padding: 30px 0;
+  border-top: 2px solid #d7d4d4;
+}
+.compoundCalc h1 {
+  color: #555186;
+  font-size: 25px;
+}
+.compoundCalc a,
+.compoundCalc h1 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.compoundCalc a {
+  font-size: 20px;
+  width: 80%;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.investSection {
+  padding: 30px 80px;
+  vertical-align: middle;
+}
+.totalcount {
+  padding: 30px 80px;
+  vertical-align: middle;
+}
+.totalcount h1 {
+  font-size: 40px;
+  color: rgba(50, 115, 201, 1);
+}
+.totlacount p {
+  color: black;
+  font-weight: 600;
+}
+.investReferral {
+  background-color: #fff;
+  padding: 50px 100px 100px !important;
+}
+.investImage {
+  padding: 0 80px;
+}
+.investImage,
+.investPrompt {
+  vertical-align: middle;
+}
+.checkContract a.btn-grad {
+  border: 2px solid white;
+}
+.checkContract a.btn-grad:hover {
+  background: white;
+  color: black !important;
+}
+.investButton:hover {
+  border: 2px solid #0f3443;
+  background: white !important;
+  color: black !important;
+}
+.investPrompt h1 {
+  color: #555186;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin: 60px auto;
+}
+.investPrompt h2 {
+  font-size: 40px;
+}
+.investPrompt .whitecard h2,
+.refTitle h2 {
+  color: rgba(50, 115, 201, 1);
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.investPrompt .whitecard h3 {
+  color: rgba(50, 115, 201, 1);
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 36px;
+}
+.refTitle h2 {
+  font-size: 40px;
+}
+.investPrompt p {
+  color: #444;
+  margin: 5px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.investInput {
+  width: 50%;
+  margin-top: 20px;
+}
+.investInput .ant-input-affix-wrapper .ant-input:not(:last-child) {
+  padding-left: 50px;
+}
+.investButton {
+  margin-top: 20px;
+  border-radius: 5px;
+  color: #fff;
+  background: linear-gradient(to right, #34e89e, #0f3443);
+  border: 2px solid white;
+}
+.buttonDisabled,
+.investButton {
+  font-size: 16px;
+  width: 30%;
+  font-weight: 650;
+  padding: 6px 20px;
+}
+.buttonDisabled {
+  margin-left: 20px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #d3d3d3;
+}
+.buttonDisabled:hover {
+  cursor: not-allowed;
+}
+.investButton:hover {
+  cursor: pointer;
+}
+.investButton:active {
+  opacity: 0.8;
+}
+.statusPrompt {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 20px;
+}
+.ROI200 .referralStatus {
+  width: 80%;
+}
+.ROI200 .referralStatus p {
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+}
+.trxProfit {
+  font-family: -apple-system, Open Sans, sans-serif !important;
+}
+.withdrawSection {
+  padding: 0 80px;
+}
+.withdrawImage,
+.withdrawPrompt,
+.withdrawSection {
+  vertical-align: middle;
+}
+.withdrawImage {
+  padding: 0 80px;
+}
+.withdrawPrompt h2 {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+.withdrawPrompt h1,
+.withdrawPrompt h2 {
+  color: rgba(50, 115, 201, 1);
+  font-weight: 600;
+  text-align: center;
+}
+.withdrawPrompt h1 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.withdrawPrompt p {
+  color: #444;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.withdrawable {
+  color: #444;
+  text-align: center;
+  padding: 0;
+  font-weight: 600;
+}
+.withdrawButton {
+  display: inline-block;
+}
+.reInvestButton p {
+  background: linear-gradient(to right, #34e89e, #0f3443) !important;
+  border: 2px solid white;
+}
+.withdrawButton p {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #fff;
+  font-size: 14px;
+  display: inline-block;
+  font-weight: 650;
+  padding: 7px 20px;
+  margin-top: 0px;
+  border-radius: 5px;
+  margin-bottom: 0;
+  background-image: linear-gradient(-45deg, #f96, #ff5e62);
+  border: 2px solid white;
+}
+.withdrawButton p:hover {
+  cursor: pointer;
+  border: 2px solid black !important;
+  color: black !important;
+  background: white !important;
+}
+.withdrawButton:active {
+  opacity: 0.8;
+}
+.withdrawBottomPrompt p {
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: red;
+  text-align: center;
+  font-weight: 600;
+}
+.totalPayout {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.totalPayout span {
+  font-size: 20px;
+  font-weight: 500;
+}
+.vipStatus {
+  margin-bottom: 40px;
+}
+.vipStatus img {
+  width: 50px;
+  margin-left: 50px;
+}
+.vipStatus p {
+  margin-left: 0;
+  color: #444;
+  font-size: 14px;
+  font-weight: 600;
+}
+.vipStatus span {
+  margin-left: 20px;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  font-weight: 700;
+}
+.investSubPrompt h3 {
+  color: #444;
+  font-weight: 600;
+}
+.ROI200 .referralLink {
+  border-radius: 8px;
+  border: 2px solid #444;
+  padding: 8px 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.ROI200 .copyButton,
+.ROI200 .referralLink {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 13px;
+}
+.ROI200 .copyButton {
+  border-radius: 8px;
+  background: linear-gradient(to right, #34e89e, #0f3443) !important;
+  border: 2px solid white;
+
+  padding: 10px 25px;
+  color: #fff;
+}
+.ROI200 .copyButton:hover {
+  cursor: pointer;
+  border: 2px solid black !important;
+  background: white !important;
+  color: black !important;
+}
+.ROI200 .copyButton:active {
+  opacity: 0.8;
+}
+.ROI200 .referralLinkSection p {
+  margin-bottom: 0;
+}
+.referralLinkSection {
+  padding-top: 30px;
+}
+.ROI200 .referralLinkSection h6 {
+  margin-top: 10px;
+  color: #959595;
+  font-size: 14px;
+  text-align: left;
+}
+.referralRewards {
+  text-align: right;
+  font-size: 16px !important;
+  font-weight: 600;
+}
+.referralRewards span {
+  margin-left: 10px;
+}
+@media (max-width: 800px) {
+  .roiSection {
+    padding: 0;
+  }
+  .tierSection {
+    padding: 0;
+  }
+  .linkSection {
+    margin-top: 10px;
+  }
+  .contractBalance p {
+    font-size: 12px;
+    font-weight: 700;
+    color: #444;
+    margin-bottom: 0;
+  }
+  .contractBalanceNumber {
+    font-size: 16px;
+  }
+  .checkContract {
+    font-size: 12px;
+  }
+  .checkContract a {
+    font-size: 9px;
+    padding: 10px 15px;
+  }
+  .roiBackground {
+    padding: 20px 20px 30px;
+  }
+  .roiPromptSection {
+    width: 100%;
+  }
+  .roiPromptSection h1 {
+    font-weight: 900;
+    font-size: 20px;
+  }
+  .roiPromptSection p {
+    font-size: 12px;
+  }
+  .investSection,
+  .withdrawSection {
+    padding: 40px 5% !important;
+  }
+  .totalcount {
+    padding: 40px 5% !important;
+  }
+
+  .withdrawButton {
+    margin-left: 0;
+  }
+  .withdrawButton p {
+    font-size: 14px;
+    padding: 6px 20px;
+  }
+  .referralInfo {
+    text-align: justify;
+  }
+  .vipStatus img {
+    width: 30px;
+  }
+  .vipStatus p {
+    display: inline-block;
+    margin-left: 30px;
+    color: #444;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .vipStatus span {
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .ROI200 .referralLinkSection h6 {
+    font-size: 10px;
+  }
+  .investReferral {
+    background-color: #f7f7f7;
+  }
+  .ROI200 .referralStatus {
+    width: 100%;
+  }
+  .dataSection {
+    padding: 10px 0 20px;
+  }
+  .dataSection h1 {
+    font-weight: 700;
+    font-size: 25px;
+    display: block;
+    color: #555186;
+    margin: 10px 0 0;
+  }
+  .dataSection p {
+    font-size: 12px;
+  }
+  .ROI200 .referralStatus p {
+    font-size: 10px;
+  }
+  .investPrompt h2,
+  .withdrawPrompt h2 {
+    font-size: 35px;
+  }
+  .refTitle h2 {
+    font-size: 20px;
+  }
+  .statusPrompt {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .refRewards {
+    font-size: 14px;
+  }
+  .compoundCalc h1 {
+    font-size: 18px;
+  }
+  .compoundCalc a {
+    font-size: 14px;
+  }
+}
+.App {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400 !important;
+}
+.blueText {
+  color: #13237a;
+}
+.clickableButton {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-transform: uppercase;
+}
+.clickableButton:hover {
+  cursor: pointer;
+}
+.clickableButton:active {
+  opacity: 0.8;
+}
+@media (max-width: 320px) {
+  .buttonDisabled,
+  .investButton {
+    width: 60%;
+  }
+  .withdrawButton {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 6%;
+  }
+  .reInvestButton {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 6%;
+  }
+  .referalstatus {
+    width: 100% !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .wth-buttons {
+    display: inline-flex;
+    margin-left: -12px;
+  }
+  .copyButton {
+    margin-left: -15px;
+    margin-top: 8px !important;
+  }
+  .btn-grad img {
+    height: 28px !important;
+  }
+  .checkContract {
+    margin-left: 0px !important;
+  }
+}
+@media (min-width: 375px) and (max-width: 700px) {
+  .buttonDisabled,
+  .investButton {
+    width: 52%;
+  }
+  .btn-grad img {
+    height: 29px !important;
+  }
+
+  .referalstatus {
+    width: 100% !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+}
+/* @media (min-width: 321px) and (max-width: 480px) {
+   html {
+      font-size:0.20em;
+   }
+} */
