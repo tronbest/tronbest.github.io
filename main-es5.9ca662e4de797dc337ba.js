@@ -4063,7 +4063,7 @@ new(e||By)(io(fs),io(bu),io(su))},By.\u0275dir=gt({type:By,selectors:[["","count
 t.onClick()}))},inputs:{options:"options",reanimateOnClick:"reanimateOnClick",endVal:["countUp","endVal"]},outputs:{complete:"complete"},features:[Xo]}),By),dm=((zy=function
 e(){_classCallCheck(this,e)}).\u0275mod=yt({type:zy}),zy.\u0275inj=fe({factory:function(e){return
 new(e||zy)},imports:[[]]}),zy),vm=[{path:"**",component:(qy=function(){function
-e(t,n){_classCallCheck(this,e),this.toastr=t,this.router=n,this.baseUrl=window.location.origin,this.telegramLink="https://t.me/tronbest",this.contractLink="https://tronscan.org/#/contract/TBrgoosVvwux7iMjSb9txNnyavG4MTNxVp/code",this.refAddress="TC6gMz4PMSHx5tvRxKdpWf9PHKxFPAurEZ",this.contractAddress="TBrgoosVvwux7iMjSb9txNnyavG4MTNxVp",this.roiPercent=50,this.monthlyProfitPercent=600,this.referralPercent=40,this.totalInvestedAmount="0",this.totalInvestors="0",this.totalReferralRewards="0",this.investTrxAmount=50,this.trxBalance=0,this.t1ReffererCount=0,this.t2ReffererCount=0,this.t3ReffererCount=0,this.t4ReffererCount=0,this.t5ReffererCount=0,this.t6ReffererCount=0,this.t7ReffererCount=0,this.t8ReffererCount=0,this.availableToWithdraw=0,this.userTotalPayout="0.0",this.userInvestment=0,this.usersTotalReferralRewards=0,this.isContract=!1,this.option={useEasing:!0,duration:2,decimalPlaces:6,separator:","},window.addEventListener("message",this.setAccountAddress.bind(this),!0),window.addEventListener("message",this.setEventServer.bind(this),!0),this.router.url.split("ref=")[1]&&(this.refAddress=this.router.url.split("ref=")[1])}return
+e(t,n){_classCallCheck(this,e),this.toastr=t,this.router=n,this.baseUrl=window.location.origin,this.telegramLink="https://t.me/tronbest",this.contractLink="https://tronscan.org/#/contract/TBrgoosVvwux7iMjSb9txNnyavG4MTNxVp/code",this.refAddress="TBrgoosVvwux7iMjSb9txNnyavG4MTNxVp",this.contractAddress="TBrgoosVvwux7iMjSb9txNnyavG4MTNxVp",this.roiPercent=50,this.monthlyProfitPercent=600,this.referralPercent=40,this.totalInvestedAmount="0",this.totalInvestors="0",this.totalReferralRewards="0",this.investTrxAmount=50,this.trxBalance=0,this.t1ReffererCount=0,this.t2ReffererCount=0,this.t3ReffererCount=0,this.t4ReffererCount=0,this.t5ReffererCount=0,this.t6ReffererCount=0,this.t7ReffererCount=0,this.t8ReffererCount=0,this.availableToWithdraw=0,this.userTotalPayout="0.0",this.userInvestment=0,this.usersTotalReferralRewards=0,this.isContract=!1,this.option={useEasing:!0,duration:2,decimalPlaces:6,separator:","},window.addEventListener("message",this.setAccountAddress.bind(this),!0),window.addEventListener("message",this.setEventServer.bind(this),!0),this.router.url.split("ref=")[1]&&(this.refAddress=this.router.url.split("ref=")[1])}return
 _createClass(e,[{key:"ngOnInit",value:function(){var
 e=this;this.interval=setInterval((function(){e.setAccountAddress()}),500)}},{key:"ngOnDestroy",value:function(){clearInterval(this.interval),clearInterval(this.profitInterval),clearInterval(this.userDataInterval),window.removeEventListener("message",this.setAccountAddress.bind(this),!0),window.removeEventListener("message",this.setEventServer.bind(this),!0)}},{key:"setContract",value:function(){return
 Kv(this,void 0,void 0,regeneratorRuntime.mark((function e(){var t=this;return
@@ -4180,7 +4180,7 @@ t.onWithdraw()})),uo(116,"p"),Uo(117,"Withdraw"),lo(),lo(),lo(),uo(118,"div",52)
 Total Payout (Referral Rewards Included):
 "),uo(121,"span",38),Uo(122),lo(),lo(),lo(),lo(),lo(),lo(),lo(),lo(),uo(123,"div",53),uo(124,"div",54),uo(125,"h2"),Uo(126,"Referral"),lo(),lo(),uo(127,"div",55),uo(128,"div",56),uo(129,"div",57),uo(130,"p",58),Uo(131),lo(),lo(),co(132,"div",59),uo(133,"div",60),uo(134,"div",61),vo("click",(function(){return
 t.copyLink()})),uo(135,"span"),Uo(136,"Copy"),lo(),lo(),lo(),lo(),uo(137,"div",56),uo(138,"div",62),uo(139,"h6",63),Uo(140,"
-You need to invest at least 50 TRX in Tron Express in order to activate the
+You need to invest at least 50 TRX in Tron Best in order to activate the
 referral link. "),lo(),uo(141,"h6",64),Uo(142," Referral rewards will be
 transfered to your wallet directly. You do not need to manually withdraw them.
 "),lo(),lo(),co(143,"div",65),co(144,"div",66),lo(),lo(),uo(145,"div",67),uo(146,"p",68),Uo(147,"Referral
@@ -4192,7 +4192,7 @@ Status"),lo(),uo(148,"div",69),uo(149,"div",70),uo(150,"p"),Uo(151,"Level 1
 (2%)"),lo(),uo(174,"p"),Uo(175,"Level 6 (2%)"),lo(),uo(176,"p"),Uo(177,"Level
 8
 (1%)"),lo(),lo(),uo(178,"div",71),uo(179,"p"),Uo(180),lo(),uo(181,"p"),Uo(182),lo(),uo(183,"p"),Uo(184),lo(),uo(185,"p"),Uo(186),lo(),lo(),uo(187,"p",74),Uo(188),lo(),lo(),lo(),lo(),uo(189,"div",75),uo(190,"div",34),uo(191,"h1",8),Uo(192,"About\xa0Tron
-Express"),lo(),uo(193,"p"),Uo(194),lo(),lo(),lo(),lo(),lo(),lo(),lo()),2&e&&(oi(12),zo("",t.roiPercent,"%
+Best"),lo(),uo(193,"p"),Uo(194),lo(),lo(),lo(),lo(),lo(),lo(),lo()),2&e&&(oi(12),zo("",t.roiPercent,"%
 "),oi(12),go("href",t.contractLink,Ur),oi(4),go("href",t.telegramLink,Ur),oi(7),Ho(t.totalInvestedAmount),oi(4),Ho(t.totalReferralRewards),oi(4),Ho(t.totalInvestors),oi(7),zo("
 ",t.referralPercent,"%"),oi(16),zo("
 ",t.roiPercent,"%"),oi(11),go("value",t.investTrxAmount),oo("ngModel",t.investTrxAmount),oi(11),zo("",t.trxBalance,"
